@@ -1,0 +1,29 @@
+{
+  "name": "truffle-template",
+  "version": "1.0.0",
+  "description": "base template for truffle and some addons",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "testrpc": "pm2 start testrpc",
+    "test": "truffle test",
+    "start": "pm2 start truffle -- serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Upchain/truffle-template.git"
+  },
+  "keywords": [
+    "template",
+    "ethereum",
+    "solidity"
+  ],
+  "author": "Sebastian Schürmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Upchain/truffle-template/issues"
+  },
+  "homepage": "https://github.com/Upchain/truffle-template#readme"
+}
