@@ -22,6 +22,20 @@ This allows for easy version changes in node versions. Plus: NO sudo for  -g ins
 * install truflle - npm install -g truffle
 
 Provides
+
+Run with
+
+```
+npm run
+```
+
+* testrpc - starts test rpc and puts it to pm2. S
+* test - run tests
+* start - start the server
+* jshint - basic jshint test
+* jscode style checker
+* lint - jshint & jscs
+
 ```
   "scripts": {
     "testrpc": "pm2 start testrpc",
