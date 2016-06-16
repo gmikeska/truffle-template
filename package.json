@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "jshint": "jshint app/javascripts",
+    "jscs": "jscs app/javascripts",
     "testrpc": "pm2 start testrpc",
     "test": "truffle test",
     "start": "pm2 start truffle -- serve"
@@ -25,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/Upchain/truffle-template/issues"
   },
-  "homepage": "https://github.com/Upchain/truffle-template#readme"
+  "homepage": "https://github.com/Upchain/truffle-template#readme",
+  "devDependencies": {
+    "jscs": "^3.0.4",
+    "jshint": "^2.9.2"
+  }
 }

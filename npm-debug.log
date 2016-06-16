@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sebs/.nvm/versions/node/v5.0.0/bin/node',
+1 verbose cli   '/Users/sebs/.nvm/versions/node/v5.0.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'jscs' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose run-script [ 'prejscs', 'jscs', 'postjscs' ]
+5 info lifecycle truffle-template@1.2.0~prejscs: truffle-template@1.2.0
+6 silly lifecycle truffle-template@1.2.0~prejscs: no script for prejscs, continuing
+7 info lifecycle truffle-template@1.2.0~jscs: truffle-template@1.2.0
+8 verbose lifecycle truffle-template@1.2.0~jscs: unsafe-perm in lifecycle true
+9 verbose lifecycle truffle-template@1.2.0~jscs: PATH: /Users/sebs/.nvm/versions/node/v5.0.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/sebs/projects/customers/upchain/truffle-test/node_modules/.bin:/Users/sebs/.nvm/versions/node/v5.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle truffle-template@1.2.0~jscs: CWD: /Users/sebs/projects/customers/upchain/truffle-test
+11 silly lifecycle truffle-template@1.2.0~jscs: Args: [ '-c', 'jscs app/javascripts' ]
+12 silly lifecycle truffle-template@1.2.0~jscs: Returned: code: 2  signal: null
+13 info lifecycle truffle-template@1.2.0~jscs: Failed to exec jscs script
+14 verbose stack Error: truffle-template@1.2.0 jscs: `jscs app/javascripts`
+14 verbose stack Exit status 2
+14 verbose stack     at EventEmitter.<anonymous> (/Users/sebs/.nvm/versions/node/v5.0.0/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/sebs/.nvm/versions/node/v5.0.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid truffle-template@1.2.0
+16 verbose cwd /Users/sebs/projects/customers/upchain/truffle-test
+17 error Darwin 15.5.0
+18 error argv "/Users/sebs/.nvm/versions/node/v5.0.0/bin/node" "/Users/sebs/.nvm/versions/node/v5.0.0/bin/npm" "run" "jscs"
+19 error node v5.0.0
+20 error npm  v3.3.6
+21 error code ELIFECYCLE
+22 error truffle-template@1.2.0 jscs: `jscs app/javascripts`
+22 error Exit status 2
+23 error Failed at the truffle-template@1.2.0 jscs script 'jscs app/javascripts'.
+23 error This is most likely a problem with the truffle-template package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     jscs app/javascripts
+23 error You can get their info via:
+23 error     npm owner ls truffle-template
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
