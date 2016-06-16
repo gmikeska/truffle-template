@@ -9,8 +9,10 @@
   "scripts": {
     "jshint": "jshint app/javascripts",
     "jscs": "jscs app/javascripts",
-    "testrpc": "pm2 start testrpc",
+    "lint": "npm run jshint && npm run jscs",
     "test": "truffle test",
+    "testrpc": "pm2 start testrpc",
+
     "start": "pm2 start truffle -- serve"
   },
   "repository": {
