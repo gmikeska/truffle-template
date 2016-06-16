@@ -1,10 +1,15 @@
 # Truffle template
 
-Requires
+## Setup
 
-* pm2
-* truffle
-* testrpc
+
+* Install nvm - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+* Install node -  nvm install v5.0.0
+* Use node via nvm - nvm use v5.0.0
+* Install solc - npm install -g solc solc-cli
+* Install pm2 process manager - npm install -g pm2
+* Install testrpc - npm install -g ethereumjs-testrpc
+
 
 Provides
 ```
