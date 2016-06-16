@@ -21,7 +21,7 @@
     "solidity"
   ],
   "author": "Sebastian Schürmann",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Upchain/truffle-template/issues"
   },
