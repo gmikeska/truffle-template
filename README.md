@@ -9,7 +9,7 @@
 * Install solc - npm install -g solc solc-cli
 * Install pm2 process manager - npm install -g pm2
 * Install testrpc - npm install -g ethereumjs-testrpc
-
+* install truflle - npm install -g truffle
 
 Provides
 ```
