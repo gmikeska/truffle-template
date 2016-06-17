@@ -15,3 +15,4 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install geth -y -qq
   - sudo npm install -g pm2
+  - npm install -g ethereumjs-testrpc
