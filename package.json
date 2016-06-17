@@ -10,7 +10,7 @@
     "jshint": "jshint app/javascripts",
     "jscs": "jscs app/javascripts",
     "lint": "npm run jshint && npm run jscs",
-    "test": "truffle test && npm run lint",
+    "test": "truffle test",
     "testrpc": "pm2 start testrpc",
     "start": "pm2 start truffle -- serve"
   },
@@ -28,9 +28,14 @@
   "bugs": {
     "url": "https://github.com/Upchain/truffle-template/issues"
   },
+  "private": true,
   "homepage": "https://github.com/Upchain/truffle-template#readme",
   "devDependencies": {
+    "ethereumjs-testrpc": "^2.0.8",
     "jscs": "^3.0.4",
-    "jshint": "^2.9.2"
+    "jshint": "^2.9.2",
+    "solc": "^0.3.5",
+    "solc-cli": "^0.3.0",
+    "truffle": "^1.0.3"
   }
 }
