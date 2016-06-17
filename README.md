@@ -1,5 +1,7 @@
 # Truffle template
 
+[![Build Status](https://travis-ci.org/Upchain/truffle-template.svg?branch=master)](https://travis-ci.org/Upchain/truffle-template)
+
 ## Setup
 
 Meant for ca. Ubuntu style systems. Expects geth to be installed.
