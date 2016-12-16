@@ -5,7 +5,7 @@
 ## Setup
 
 Meant for ca. Ubuntu style systems. Expects geth to be installed.
-* make, git, g++ packages required
+* make, git, g++ packages required.
 
 **Node JS via nvm**
 
